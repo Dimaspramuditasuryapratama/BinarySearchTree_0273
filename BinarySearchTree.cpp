@@ -140,5 +140,8 @@ public:
         cout << ptr->info << " "; // Visit node
     }
 
- 
+    bool isEmpty()
+    {
+        return ROOT == nullptr; // Check if the root is null
+    }
 };
