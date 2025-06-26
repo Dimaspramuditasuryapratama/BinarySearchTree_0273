@@ -108,6 +108,20 @@ public:
         inorder(ptr->rightchild); // Traverse right subtree
     }
 
+       void preorder(Node *ptr)
+    {
+        if (isEmpty())
+        {
+            cout << "Tree is empty" << endl;
+            return;
+        }
+        if (ptr == nullptr)
+            return;
+        
+        cout << ptr->info << " "; // Visit node
+        inorder(ptr->leftchild); // Traverse left subtree
+        inorder(ptr->rightchild); // Traverse right subtree
+    }
 
 
   
