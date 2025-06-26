@@ -26,7 +26,21 @@ public:
         ROOT = nullptr; // Initialize root to null
     }
 
-  
+    void insert()
+    {
+        int x;
+        cout << "Masukan nilai: ";
+        cin >> x;
+
+   
+
+
+
+ 
+
+
+    }
+
   
   
 
